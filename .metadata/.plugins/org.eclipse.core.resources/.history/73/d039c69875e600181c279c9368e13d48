@@ -1,0 +1,5 @@
+package com.internousdev.webpro2.dao;
+
+public class HelloStrutsDAO {
+
+}
