@@ -28,5 +28,7 @@ public class HelloStrutsDAO {
 			e.printStackTrace();
 		}
 		return ret;
-	}
+
+}
+
 }
