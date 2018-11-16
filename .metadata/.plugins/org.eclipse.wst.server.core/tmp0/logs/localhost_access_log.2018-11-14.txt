@@ -47,3 +47,7 @@
 0:0:0:0:0:0:0:1 - - [14/Nov/2018:21:34:38 +0900] "GET /WebProj2/ HTTP/1.1" 200 977
 0:0:0:0:0:0:0:1 - - [14/Nov/2018:21:34:40 +0900] "POST /WebProj2/InquiryAction.action HTTP/1.1" 200 920
 0:0:0:0:0:0:0:1 - - [14/Nov/2018:21:34:47 +0900] "POST /WebProj2/InquiryCompleteAction.action HTTP/1.1" 200 319
+127.0.0.1 - - [14/Nov/2018:21:36:18 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [14/Nov/2018:21:36:20 +0900] "GET /WebProj2/ HTTP/1.1" 200 977
+0:0:0:0:0:0:0:1 - - [14/Nov/2018:21:36:21 +0900] "POST /WebProj2/InquiryAction.action HTTP/1.1" 200 920
+0:0:0:0:0:0:0:1 - - [14/Nov/2018:21:36:25 +0900] "POST /WebProj2/InquiryCompleteAction.action HTTP/1.1" 200 341
