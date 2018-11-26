@@ -45,3 +45,9 @@
 0:0:0:0:0:0:0:1 - - [21/Nov/2018:21:18:55 +0900] "GET /WebProj3/TestAction.action?username=ww&password=rr HTTP/1.1" 200 340
 0:0:0:0:0:0:0:1 - - [21/Nov/2018:21:19:07 +0900] "POST /WebProj3/ HTTP/1.1" 200 2022
 0:0:0:0:0:0:0:1 - - [21/Nov/2018:21:19:13 +0900] "POST /WebProj3/ HTTP/1.1" 200 2022
+127.0.0.1 - - [21/Nov/2018:21:21:06 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [21/Nov/2018:21:21:09 +0900] "GET /WebProj3/ HTTP/1.1" 200 2022
+0:0:0:0:0:0:0:1 - - [21/Nov/2018:21:21:14 +0900] "GET /WebProj3/TestAction.action?username=rr&password=tt HTTP/1.1" 200 342
+0:0:0:0:0:0:0:1 - - [21/Nov/2018:21:21:19 +0900] "POST /WebProj3/ HTTP/1.1" 200 2022
+0:0:0:0:0:0:0:1 - - [21/Nov/2018:21:23:03 +0900] "GET /WebProj3/ HTTP/1.1" 200 2084
+0:0:0:0:0:0:0:1 - - [21/Nov/2018:21:23:06 +0900] "POST /WebProj3/TestAction.action HTTP/1.1" 200 342
