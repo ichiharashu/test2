@@ -18,3 +18,11 @@
 0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:27:39 +0900] "POST /WebProj5/WelcomeAction.action HTTP/1.1" 200 979
 0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:27:43 +0900] "POST /WebProj5/LoginAction.action HTTP/1.1" 200 664
 0:0:0:0:0:0:0:1 - - [03/Dec/2018:20:27:55 +0900] "POST /WebProj5/LoginAction.action HTTP/1.1" 200 537
+127.0.0.1 - - [03/Dec/2018:21:22:56 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:21:23:00 +0900] "GET /WebProj5/ HTTP/1.1" 200 1113
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:21:23:03 +0900] "POST /WebProj5/InquiryAction.action HTTP/1.1" 200 1054
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:21:23:10 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 604
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:21:23:11 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:21:23:18 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 659
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:21:23:26 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 745
+0:0:0:0:0:0:0:1 - - [03/Dec/2018:21:24:31 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 901
