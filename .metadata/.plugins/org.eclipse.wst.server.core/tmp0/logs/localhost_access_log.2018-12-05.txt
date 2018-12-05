@@ -1,0 +1,16 @@
+127.0.0.1 - - [05/Dec/2018:20:14:31 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:14:36 +0900] "GET /WebProj5/ HTTP/1.1" 200 2450
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:14:44 +0900] "GET /WebProj5/TestAction.action;jsessionid=D8A894D82DD5E962D7400B1B8BB9A969?username=rt&password=tt HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:14:44 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 200 1421
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:14:53 +0900] "POST /WebProj5/TestAction.action;jsessionid=D8A894D82DD5E962D7400B1B8BB9A969 HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:19:36 +0900] "POST /WebProj5/HelloStrutsAction.action;jsessionid=D8A894D82DD5E962D7400B1B8BB9A969 HTTP/1.1" 200 985
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:19:40 +0900] "POST /WebProj5/WelcomeAction.action;jsessionid=D8A894D82DD5E962D7400B1B8BB9A969 HTTP/1.1" 200 979
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:19:48 +0900] "POST /WebProj5/LoginAction.action HTTP/1.1" 200 537
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:19:53 +0900] "POST /WebProj5/LoginAction.action HTTP/1.1" 200 664
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:19:56 +0900] "POST /WebProj5/InquiryAction.action;jsessionid=D8A894D82DD5E962D7400B1B8BB9A969 HTTP/1.1" 200 1054
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:19:59 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 604
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:20:04 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 687
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:20:08 +0900] "POST /WebProj5/InquiryCompleteAction.action HTTP/1.1" 200 788
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:20:14 +0900] "GET /WebProj5/TestAction.action;jsessionid=D8A894D82DD5E962D7400B1B8BB9A969?username=rr&password=tt HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:20:20 +0900] "POST /WebProj5/TestAction.action;jsessionid=D8A894D82DD5E962D7400B1B8BB9A969 HTTP/1.1" 200 529
+0:0:0:0:0:0:0:1 - - [05/Dec/2018:20:20:37 +0900] "GET /WebProj5/TestAction.action;jsessionid=D8A894D82DD5E962D7400B1B8BB9A969?username=r&password=r HTTP/1.1" 200 528
