@@ -52,15 +52,15 @@ public class UserCreateConfirmAction extends ActionSupport implements SessionAwa
 	public void setSession(Map<String,Object> session){
 		this.session=session;
 	}
-	public String getErrorMesssage(){
+	public String getErrorMessage(){
 		return errorMessage;
 	}
 	public void setErrorMessage(String errorMessage){
 		this.errorMessage=errorMessage;
-	}
+
 }
 
-
+}
 
 
 
