@@ -77,7 +77,7 @@ clear:both;
 <s:form action="LoginAction">
 <s:textfield name="loginUserId"/>
 <s:password name="loginPassword"/>
-<s:submit vaue="ログイン"/>
+<s:submit value="ログイン"/>
 </s:form>
 <br/>
 
