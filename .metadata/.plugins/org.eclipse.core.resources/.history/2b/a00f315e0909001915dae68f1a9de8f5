@@ -5,16 +5,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<meta http-equiv="Content-Type" content="text/css"/>
+<meta http-equiv="Content-Style-type" content="text/css"/>
 <meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no"/>
-<meta name="descripton"content=""/>
+<meta name="descripton" content=""/>
 <meta name="keywords" content=""/>
-
-<title>Login画面</title>
+<title>MyPage画面</title>
 
 <style type="text/css">
-/*=============TAG LAYOUT============*/
+/*===========TAG LAYOUT=========*/
 body{
 margin:0;
 padding:0;
@@ -31,9 +30,9 @@ text-align:center;
 margin:0 auto;
 }
 
-/*=============ID LAYOUT============*/
+/*========ID LAYOUT========*/
 #top{
-width:780px;
+width:100%;
 margin:30px auto;
 border:1px solid #333;
 }
@@ -58,7 +57,6 @@ clear:both;
 }
 
 </style>
-
 </head>
 <body>
 
@@ -69,27 +67,50 @@ clear:both;
 
 <div id="main">
 <div id="top">
-<p>Login</p>
+<p>MyPage</p>
 </div>
 
 <div>
-<h3>商品を購入する際にはログインをお願いします。</h3>
-<s:form action="LoginAction">
-<s:textfield name="loginUserId"/>
-<s:password name="loginPassword"/>
-<s:submit vaue="ログイン"/>
+<s:if test="session.message=="">
+<h3>ご購入情報は以下になります。</h3>
+<table>
+<tr>
+<td>商品名</td>
+<td><s:property value="session.buyItem_name"/></td>
+</tr>
+
+<tr>
+<td>値段</td>
+<td><s:property value="session.total_price"/>
+<span>円</span>
+</td>
+</tr>
+
+<tr>
+<td>支払い方法</td>
+<td><s:property value="session.total_payment"/></td>
+</tr>
+
+</table>
+
+<s:form action="MyPageAction">
+<input type="hidden" name="deleteFlg" value="1">
+<s:submit value="削除" method="delete"/>
 </s:form>
-<br/>
+</s:if>
+
+<s:if test="session.message!=null">
+<h3><s:property value="session.message"/></h3>
+</s:if>
 
 <div>
-<span>新規ユーザー登録は
-<a href='<s:url action="UserCreateAction"/>'>こちら</a>
-</span>
-
+<br>
+<span>前画面に戻る場合は</span>
+<a href='<s:url action="HomeAction"/>'>ログアウト</a>
+<span>をお願いします。</span>
 </div>
 
 </div>
-
 </div>
 
 <div id="footer">
@@ -99,8 +120,6 @@ clear:both;
 
 </body>
 </html>
-
-
 
 
 
