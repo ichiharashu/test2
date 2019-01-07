@@ -71,7 +71,7 @@ clear:both;
 </div>
 
 <div>
-<s:if test="session.message==”">
+<s:if test="session.message==''">
 <h3>ご購入情報は以下になります。</h3>
 <table>
 <tr>
@@ -83,6 +83,13 @@ clear:both;
 <td>値段</td>
 <td><s:property value="session.total_price"/>
 <span>円</span>
+</td>
+</tr>
+
+<tr>
+<td>購入個数</td>
+<td><s:property value="session.total_count"/>
+<span>個</span>
 </td>
 </tr>
 
@@ -99,7 +106,7 @@ clear:both;
 </s:form>
 </s:if>
 
-<s:if test="session.message!=null">
+<s:if test="session.message !=null">
 <h3><s:property value="session.message"/></h3>
 </s:if>
 
