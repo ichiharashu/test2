@@ -4,6 +4,8 @@ import java.util.Map;
 
 import org.apache.struts2.interceptor.SessionAware;
 
+import com.internousdev.ecsite.dao.BuyItemDAO;
+import com.internousdev.ecsite.dto.BuyItemDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class HomeAction extends ActionSupport implements SessionAware{
@@ -11,7 +13,7 @@ public Map<String,Object> session;
 
 public String execute(){
 	String result="login";
-	if(session.containtsKey("id")){
+	if(session.containsKey("id")){
 		BuyItemDAO buyItemDAO=new BuyItemDAO();
 		BuyItemDTO buyItemDTO=buyItemDAO.getBuyItemInfo();
 		session.put("id",buyItemDTO.getId());
