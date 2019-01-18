@@ -20,7 +20,7 @@ public class LoginAction extends ActionSupport implements SessionAware{
 
 	public String execute(){
 		String result=ERROR;
-		loginDTO=loginDTO.getLoginUserInfo(loginUserId,loginPassword);
+		loginDTO=loginDAO.getLoginUserInfo(loginUserId,loginPassword);
 		session.put("loginUser", loginDTO);
 
 		if(((LoginDTO) session.get("loginUser")).getLoginFlg()){
