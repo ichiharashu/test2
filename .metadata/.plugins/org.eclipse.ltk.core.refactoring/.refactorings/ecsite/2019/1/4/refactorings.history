@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="リソース名 &apos;ecsite/WebContent/userCrateComplete.jsp&apos; を &apos;userCreateComplete.jsp&apos; に変更します" description="リソース &apos;userCrateComplete.jsp&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/userCrateComplete.jsp" name="userCreateComplete.jsp" stamp="1548246904937" updateReferences="true"/>
+</session>
