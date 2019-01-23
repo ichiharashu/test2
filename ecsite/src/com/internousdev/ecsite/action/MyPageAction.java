@@ -1,12 +1,14 @@
 package com.internousdev.ecsite.action;
 
-import com.opensymphony.xwork2.ActionSupport;
-import org.apache.struts2.interceptor.SessionAware;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Map;
+
+import org.apache.struts2.interceptor.SessionAware;
+
 import com.internousdev.ecsite.dao.MyPageDAO;
 import com.internousdev.ecsite.dto.MyPageDTO;
+import com.opensymphony.xwork2.ActionSupport;
 
 public class MyPageAction extends ActionSupport implements SessionAware{
 	public Map<String,Object> session;
@@ -15,7 +17,7 @@ public class MyPageAction extends ActionSupport implements SessionAware{
 	private String deleteFlg;
 	private String message;
 	public String execute() throws SQLException{
-		if(!session.containskey("id")){
+		if(!session.containsKey("id")){
 			return ERROR;
 		}
 		if(deleteFlg == null){
