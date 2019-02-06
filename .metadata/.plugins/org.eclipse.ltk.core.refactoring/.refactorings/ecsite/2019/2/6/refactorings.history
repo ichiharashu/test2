@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="型 &apos;com.internousdev.ecsite.dao.ItenListDeleteCompleteDAO&apos; を &apos;ItemListDeleteCompleteDAO&apos; に名前変更します&#x0D;&#x0A;- 元のプロジェクト: &apos;ecsite&apos;&#x0D;&#x0A;- オリジナル要素: &apos;com.internousdev.ecsite.dao.ItenListDeleteCompleteDAO&apos;&#x0D;&#x0A;- 名前変更済み要素: &apos;com.internousdev.ecsite.dao.ItemListDeleteCompleteDAO&apos;&#x0D;&#x0A;- リファクタリングされた要素の参照を更新&#x0D;&#x0A;- コメントおよびストリング内のテキスト出現箇所の更新" description="型名 &apos;ItenListDeleteCompleteDAO&apos; を変更します" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.internousdev.ecsite.dao{ItenListDeleteCompleteDAO.java[ItenListDeleteCompleteDAO" matchStrategy="1" name="ItemListDeleteCompleteDAO" qualified="false" references="true" similarDeclarations="false" stamp="1549451177630" textual="false" version="1.0"/>
+</session>
