@@ -67,7 +67,7 @@ text-align:right;
 
 <div id="main">
 <div id="top">
-<p>MyPage</p>
+<p>商品一覧</p>
 </div>
 
 <div>

@@ -14,7 +14,7 @@ public class UserListDAO {
 	private DBConnector dbConnector=new DBConnector();
 	private Connection connection=dbConnector.getConnection();
 	public List<UserInfoDTO> getUserList() throws SQLException{
-		List<UserInfoDTO> getInfoDTOList=new ArrayList<UserInfoDTO>();
+		List<UserInfoDTO> userInfoDTOList=new ArrayList<UserInfoDTO>();
 		String sql="SELECT*FROM login_user_transaction ORDER BY id";
 		try{
 			PreparedStatement preparedStatement=connection.prepareStatement(sql);
