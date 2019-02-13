@@ -97,11 +97,13 @@ text-align:right;
 </tr>
 </s:iterator>
 </table>
+
+<s:form action="ItemListDeleteConfirmAction">
+<s:submit value="削除"/>
+</s:form>
 </s:elseif>
 
-<s:if test="message != null">
-<h3><s:property value="message"/></h3>
-</s:if>
+
 <div id="text-right">
 <p>管理者TOP画面へ戻る場合は<a href='<s:url action="AdminAction"/>'>こちら</a></p>
 </div>

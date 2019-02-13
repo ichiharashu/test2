@@ -13,11 +13,11 @@
 <title>ItemCreate画面</title>
 
 <style type="text/css">
-/*=====LAYOUT=====*/
+/*=====TAG LAYOUT=====*/
 body{
 margin:0;
 padding:0;
-letter-spacing:1.6;
+letter-spacing:1px;
 line-height:1.6;
 font-family:Verdana,Helvetica,sans-serif;
 font-size:12px;
@@ -70,15 +70,15 @@ clear:both;
 </div>
 
 <div>
-<s:if test="errorMessage !"= ''">
-<s:property value="errorMessage" escape="false"/>
+<s:if test="errorMassage != ''">
+<s:property value="errorMassage" escape="false"/>
 </s:if>
 
 <table>
 <s:form action="ItemCreateConfirmAction">
 <tr>
 <td>
-<labeL>商品名:</labeL>
+<label>商品名:</label>
 </td>
 <td>
 <input type="text" name="itemName" value=""/>
@@ -110,7 +110,7 @@ clear:both;
 
 <div>
 <span>前画面に戻る場合は</span>
-<a href='s:url action="AdminAction"/>'>こちら</a>
+<a href='<s:url action="AdminAction"/>'>こちら</a>
 </div>
 
 </div>

@@ -53,13 +53,13 @@ text-align:center;
 #footer{
 width:100%;
 height:80px;
-backgrpund-color:black;
+background-color:black;
 clear:both;
 }
 
 #text-link{
 display:inline-block;
-text-align:center;
+text-align:right;
 }
 
 </style>
@@ -84,7 +84,7 @@ text-align:center;
 <s:password name="loginPassword"/>
 <s:submit value="ログイン"/>
 </s:form>
-<br>
+<br/>
 <div id="text-link">
 <p>新規ユーザー登録は
 <a href='<s:url action="UserCreateAction"/>'>こちら</a></p>

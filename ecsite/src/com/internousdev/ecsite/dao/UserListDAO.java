@@ -26,7 +26,7 @@ public class UserListDAO {
 				dto.setLoginPass(resultSet.getString("login_pass"));
 				dto.setUserName(resultSet.getString("user_name"));
 				dto.setInsert_date(resultSet.getString("insert_date"));
-				dto.setUpdate_date(resultSet.getString("update_date"));
+				dto.setUpdate_date(resultSet.getString("updated_date"));
 				userInfoDTOList.add(dto);
 			}
 		}catch(Exception e){

@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <meta http-equiv="Content-Style-Type" content="text/css"/>
-<meta http-equiv="Content-Script-Type" content="text/script"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
 <meta http-equiv="imagetoolbar" content="no"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -59,18 +59,18 @@ text-align:center;
 #item{
 position:relative;
 float:left;
-width:15%;
-margin-left:300px;
+width:20%;
+margin-left:200px;
 border:1px solid #555555;
-padding:15px;
+padding:20px;
 }
 
 #user{
 position:relative;
 float:right;
-margin-right:300px;
-width:15%%;
-border:1pxsolid #555555;
+margin-right:200px;
+width:20%;
+border:1px solid #555555;
 padding:15px;
 }
 
@@ -79,7 +79,7 @@ position:absolute;
 top:-20px;
 left:80px;
 font-size:100%;
-padding:0.5em;
+padding:0.3em;
 background:#ffffff;
 }
 

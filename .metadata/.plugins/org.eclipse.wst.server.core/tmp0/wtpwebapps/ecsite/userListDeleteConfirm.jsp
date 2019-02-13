@@ -10,7 +10,7 @@
 <meta http-equiv="imagetoolbar" content="no"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
-<script type="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min,js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <title>削除確認画面</title>
 <style type="text/css">
 /*=====TAG LAYOUT=====*/
@@ -27,7 +27,7 @@ background:#fff;
 /*======ID LAYOUT======*/
 #top{
 width:780px;
-margin:80px;
+margin:30px auto;
 border:1px solid #333;
 }
 #header{

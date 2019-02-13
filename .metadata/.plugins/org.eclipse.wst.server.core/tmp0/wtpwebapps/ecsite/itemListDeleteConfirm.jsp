@@ -33,7 +33,7 @@ border:1px solid #333;
 }
 #header{
 width:100%;
-heigh:80px;
+height:80px;
 background-color:black;
 }
 #main{
@@ -52,7 +52,7 @@ margin:10px;}
 </style>
 <script type="text/javascript">
 function submitAction(url){
-	$('form').sttr('action',url);
+	$('form').attr('action',url);
 	$('form').submit();
 }
 </script>
@@ -60,7 +60,7 @@ function submitAction(url){
 <body>
 
 <div id="header">
-<div id="top">
+<div id="pr">
 </div>
 </div>
 
