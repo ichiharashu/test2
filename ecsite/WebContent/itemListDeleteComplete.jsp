@@ -12,7 +12,7 @@
 <meta name="keywords" content=""/>
 <title>商品削除完了画面</title>
 <style type="text/css">
-/*=====TAG LAYOUT=====*/
+/*======TAG LAYOUT======*/
 body{
 margin:0;
 padding:0;
@@ -27,11 +27,10 @@ table{
 text-align:center;
 margin:0 auto;
 }
-
-/*=====ID LAYOUT=====*/
+/*======ID LAYOUT======*/
 #top{
 width:780px;
-margin:30px auto;
+height:80px;
 border:1px solid #333;
 }
 #header{

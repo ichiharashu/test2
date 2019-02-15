@@ -71,7 +71,7 @@ text-align:right;
 </div>
 
 <div>
-<s:if test="itemInfoDTOList == null">
+<s:if test="itemInfoDTOList.isEmpty">
 <h3>商品情報はありません。</h3>
 </s:if>
 <s:elseif test="message == null">

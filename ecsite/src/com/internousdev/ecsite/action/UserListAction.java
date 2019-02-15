@@ -18,6 +18,10 @@ public class UserListAction extends ActionSupport implements SessionAware{
 	public String execute() throws SQLException{
 		UserListDAO userListDAO=new UserListDAO();
 		userInfoDTOList=userListDAO.getUserList();
+
+		if (userInfoDTOList.size() <= 0) {
+			userInfoDTOList = null;
+		}
 		String result=SUCCESS;
 		return result;
 	}

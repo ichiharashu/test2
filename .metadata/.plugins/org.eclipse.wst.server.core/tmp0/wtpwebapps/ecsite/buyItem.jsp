@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="Content-Style-Type" content="text/css">
-<meta http-equiv="Content-Script-Type" content="text/script">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
 <meta http-equiv="imagetoolbar" content="no">
 <meta name="description" content="">
 <meta name="keywords" content="">
@@ -22,7 +22,7 @@ letter-spacing:1px;
 font-family:Verdana,Helvetica,sans-serif;
 font-size:12px;
 color:#333;
-bockground:#fff;
+background:#fff;
 }
 
 table{
@@ -40,6 +40,7 @@ border:1px solid #333;
 #header{
 width:100%;
 height:80px;
+background-color:black;
 }
 
 #main{
