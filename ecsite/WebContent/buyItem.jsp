@@ -96,13 +96,7 @@ clear:both;
 <span>購入個数</span>
 </td>
 <td>
-<select name="count">
-<option value="1" selected="selected">1</option>
-<option value="2">2</option>
-<option value="3">3</option>
-<option value="4">4</option>
-<option value="5">5</option>
-</select>
+<s:property value="session.buyItem_stock"/><br>
 </td>
 </tr>
 
@@ -111,8 +105,8 @@ clear:both;
 <span>支払い方法</span>
 </td>
 <td>
-<input type="radio" name="pay" value="1" checked="checked">現金払い
-<input type="radio" name="pay" value="2">クレジットカード
+<label><input type="radio" name="pay" value="1" checked="checked">現金払い</label>
+<label><input type="radio" name="pay" value="2">クレジットカード</label>
 </td>
 </tr>
 
